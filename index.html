@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi página web</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .tarjeta {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 30px;
+      border-radius: 16px;
+      max-width: 500px;
+      width: 100%;
+    }
+    h1 { font-size: 2.2rem; margin-top: 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background: white;
+      color: #333;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th {
+      background: #667eea,#764ba2;
+      color: white;
+      padding: 12px;
+    }
+    td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    tr:nth-child(even) td { background: #f3f0fa; }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 24px;
+      background: white;
+      color: #764ba2;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="tarjeta">
+    <h1>¡COCARDO PRO!</h1>
+    <p>Esta es mi primera página web.</p>
+
+    <table>
+      <tr>
+        <th>playera negra</th>
+        <th>Talla M de algodon</th>
+        <th>$100</th>
+      </tr>
+      <tr>
+        <td>gorra verde</td>
+        <td> ajustable</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>tenis negros</td>
+        <td> num 3 </td>
+        <td>$350</td>
+      </tr>
+      <tr>
+        <td>calsetines </td>
+        <td>de todo color</td>
+        <td>$20</td>
+      </tr>
+    </table>
+
+    <a href="#">Contáctame</a>
+  </div>
+</body>
+</html>
